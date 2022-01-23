@@ -1,0 +1,10 @@
+ism = input("simingiz nima? ")
+savol = (f"salom {ism.capitalize()}.Yoshingiz nechida?")
+yosh = input(savol)
+yosh = int(yosh)
+height = input("bo'yingiz necha sm?")
+height = float(height)
+kitob = input("Yaxshi ko'rgan kitobingiz?")
+kitob = str(kitob.capitalize)
+print(f"mahmudning yoshi {yosh} da, yaxshi ko'rgan kitobi {kitob},bo'yi{height}sm!")
+
